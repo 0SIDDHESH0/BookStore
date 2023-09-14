@@ -1,0 +1,210 @@
+*{
+    margin: 0; padding: 0;
+    box-sizing: border-box;
+    /* border: 1px solid red; */
+}
+html, body{
+    background-color: #222;
+    font-family: sans-serif;
+}
+.h100{
+    height: 100%;
+}
+/* Nav Section Start */
+nav{
+    height: 8vh;
+}
+.line{
+    border-bottom: 0.5px solid black;
+}
+#search-box{
+    border: none; outline: none;
+    width: 100%;
+}
+/* Nav Section End */
+/* Main Section Start */
+main{
+    height: 37vh; display: flex;
+    justify-content: space-between;
+    align-items: center; padding: 0px !important;
+    overflow: hidden; 
+}
+.book-card-sec1{
+    background: linear-gradient(to top, midnightblue, lightblue);
+    border-radius: 0 20px 20px 0; box-shadow: 0px 0px 15px gray;
+    height: 80%; width: 28%; 
+}
+.book-card-sec2{
+    background: linear-gradient(to top, #334, #548);
+    border-radius: 20px; box-shadow: 0px 0px 20px black;
+    width: 35%; height: 85%;
+}
+.book-card-cnt2 h5{
+    color: #fff;
+    font-size: xx-large;
+}
+.book-card-cnt2 h6,.book-card-cnt1 h6{
+    color: #fff;
+    font-size: small;
+}
+.book-card-sec3{
+    background: linear-gradient(to top, red, pink);
+    border-radius: 20px 0 0 20px; box-shadow: 0px 0px 15px gray;
+    height: 80%; width: 28%;
+}
+.book-card-img1{
+    height: 80%; border-radius: 5px;
+    background: url(Images/Hallowed\ Book\ Image.png) no-repeat center;
+    background-size: cover; transition: all 0.2s ease-in-out;
+}
+.book-card-sec1:hover,.book-card-sec2:hover,.book-card-sec3:hover{
+    transform: scale(1.02);
+    border-radius: 10px; cursor:pointer;
+    box-shadow: 0px 0px 10px black;
+}
+.book-card-img2{
+    height: 90%; border-radius: 5px;
+    background: url(Images/Night\ Of\ The\ Dragon\ Image.png) no-repeat center;
+    background-size: cover; transition: all 0.2s ease-in-out;
+}
+.book-card-img3{
+    height: 80%; border-radius: 5px;
+    background: url(Images/Red\ White\ And\ Royal\ Blue\ Book\ Image.png) no-repeat center;
+    background-size: cover; transition: all 0.2s ease-in-out;
+}
+.book-card-cnt1{
+    color: #fff;
+}
+/* Main Section End */
+footer{
+    height: 50vh; display: flex;
+    gap: 10px;
+}
+.footer-sec1{
+    width: 80%;
+}
+.footer-sec2{
+    width: 30%;
+}
+.book-grid-sec{
+    height: 90%; display: grid;
+    grid-template-columns: auto auto auto;
+}
+.book-sec1,.book-sec2,.book-sec3,.book-sec3,.book-sec4,.book-sec5,.book-sec5,.book-sec6{
+    height: 100%;
+}
+.book-sec-img1{
+    height: 80%; border-radius: 5px;
+    background: url(Images/Dolphins\ are\ my\ spirit\ animal\ Book\ Image.png) no-repeat center;
+    background-size: cover; box-shadow: 0px 0px 10px black;
+}
+.book-sec-img2{
+    height: 80%; border-radius: 5px;
+    background: url(Images/The\ Light\ Prince\ Book\ Image.png) no-repeat center;
+    background-size: cover; box-shadow: 0px 0px 10px black;
+}
+.book-sec-img3{
+    height: 80%; border-radius: 5px;
+    background: url(Images/Georger\ Martin\ Book\ Image.png) no-repeat center;
+    background-size: cover; box-shadow: 0px 0px 10px black;
+}
+.book-sec-img4{
+    height: 80%; border-radius: 5px;
+    background: url(Images/Toward\ The\ Light\ Book\ Image.png) no-repeat center;
+    background-size: cover; box-shadow: 0px 0px 10px black;
+}
+.book-sec-img5{
+    height: 80%; border-radius: 5px;
+    background: url(Images/Dan\ Brown\ Origin\ Book\ Image.png) no-repeat center;
+    background-size: cover; box-shadow: 0px 0px 10px black;
+}
+.book-sec-img6{
+    height: 80%; border-radius: 5px;
+    background: url(Images/Walk\ on\ Earth\ a\ Stranger\ Book\ Image.png) no-repeat center;
+    background-size: cover; box-shadow: 0px 0px 10px black;
+}
+.book-sec-img1:hover,.book-sec-img2:hover,.book-sec-img3:hover,.book-sec-img4:hover,.book-sec-img5:hover,.book-sec-img6:hover{
+    transform: scale(1.02);
+    border-radius: 10px; cursor:pointer;
+    box-shadow: 0px 0px 10px black;
+}
+.book-sec-cnt{
+    height: 50%;
+}
+.star i{
+    font-size:small;
+}
+.book-sec-cnt .sub-txt{
+    font-size: small;
+    color: grey;
+}
+.footer-profile{
+    display: flex; height: 10%; 
+    justify-content: start; gap: 20px;
+    align-items: center; margin-top: 10px;
+    padding-left: 40px;
+}
+/* Progile */
+.p-img1{
+    width: 30px; border-radius: 100%;
+    background: url(Images/Girl1\ Profile\ Photo.jpg) no-repeat center;
+    background-size: cover; height: 30px; 
+    box-shadow: 0px 0px 10px grey;
+}
+.p-name{
+    font-weight: 600; font-weight: medium;
+}
+.p-img2{
+    width: 30px; border-radius: 100%;
+    background: url(Images/Boy1\ Profile.jpg) no-repeat center;
+    background-size: cover; height: 30px; 
+    box-shadow: 0px 0px 10px grey;
+}
+.p-img3{
+    width: 30px; border-radius: 100%;
+    background: url(Images/Girl2\ Profile.jpg) no-repeat center;
+    background-size: cover; height: 30px; 
+    box-shadow: 0px 0px 10px grey;
+}
+.p-img4{
+    width: 30px; border-radius: 100%;
+    background: url(Images/Boy2\ Profile.jpg) no-repeat center;
+    background-size: cover; height: 30px; 
+    box-shadow: 0px 0px 10px grey;
+}
+.p-img5{
+    width: 30px; border-radius: 100%;
+    background: url(Images/Girl3\ Profile3.jpg) no-repeat center;
+    background-size: cover; height: 30px; 
+    box-shadow: 0px 0px 10px grey;
+}
+.p-img6{
+    width: 30px; border-radius: 100%;
+    background: url(Images/Girl4\ Profile.jpg) no-repeat center;
+    background-size: cover; height: 30px; 
+    box-shadow: 0px 0px 10px grey;
+}
+.blue{
+    color: skyblue;
+}
+.blue2{
+    color: rgb(57, 166, 209);
+}
+.blue3{
+    color: rgb(24, 89, 180);
+}
+.red{
+    color: darkred;
+}
+.purple{
+    color: #548;
+}
+.pink{
+    color: pink;
+}
+.gold{
+    color: goldenrod;
+}
+.gold2{
+    color: gold;
+}

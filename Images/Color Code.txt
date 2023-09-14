@@ -1,0 +1,29 @@
+#8ef - Skyblue
+#c9f - Plum
+#f78 - Light Coral
+                <div class="row book-img-sec">
+                    <div class="col-5 book-img1"></div>
+                    <div class="col-5 book-txt">
+                        <h3>Hallowed & <br>Cynthia hand </h3>
+                        <h6>By Casey Twain</h6>
+                        <h5><i class="ri-star-s-fill"></i><i class="ri-star-s-fill"></i><i class="ri-star-s-fill"></i><i class="ri-star-s-fill"></i><i class="ri-star-s-fill blue"></i></h5>
+                    </div>
+                </div>
+
+                <div class="row book-img-sec">
+                    <div class="col-5 book-img2"></div>
+                    <div class="col-5 book-txt">
+                        <h3>Night of The<br>Dragon </h3>
+                        <h6>By Casey Twain</h6>
+                        <h5><i class="ri-star-s-fill"></i><i class="ri-star-s-fill"></i><i class="ri-star-s-fill"></i><i class="ri-star-s-fill"></i><i class="ri-star-s-fill blue"></i></h5>
+                    </div>
+                </div>
+
+                <div class="row book-img-sec">
+                    <div class="col-5 book-img3"></div>
+                    <div class="col-5 book-txt">
+                        <h3>Night of The<br>Dragon </h3>
+                        <h6>By Casey Twain</h6>
+                        <h5><i class="ri-star-s-fill"></i><i class="ri-star-s-fill"></i><i class="ri-star-s-fill"></i><i class="ri-star-s-fill"></i><i class="ri-star-s-fill blue"></i></h5>
+                    </div>
+                </div>

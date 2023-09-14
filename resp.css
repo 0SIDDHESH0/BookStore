@@ -1,0 +1,111 @@
+@media (max-width:800px){
+    main{
+        justify-content: space-between;
+        align-items: center;
+        height: 30vh;
+    }
+    .book-card-sec1,.book-card-sec3{
+        width: 30%; height: 100%;
+        margin: 50px 0;
+    }
+    .book-card-sec2{
+        width: 30%; height: 100%;
+    }
+    .book-card-cnt2 h5{
+        color: #fff;
+        font-size: large;
+    }
+    footer{
+        height: 200vh; 
+        flex-direction: column;
+    }
+    .footer-sec1{
+        width: 100%;
+        height: 50%;
+    }
+    .footer-sec2{
+        width: 100%;
+        height: 100%;
+    }
+    .book-grid-sec{
+        display: grid; grid-gap: 20px 0px;
+        grid-template-columns: auto auto;
+    }
+    .book-sec-img1,.book-sec-img2,.book-sec-img3,.book-sec-img4,.book-sec-img5,.book-sec-img6{
+        height: 100%;
+    }
+    .book-sec-cnt1 {
+        height: 30%;
+    }
+    .book-sec5,.book-sec6{
+        display: none;
+    }
+    .book-sec-cnt{
+        height: 90%;
+    }
+    .book-sec-cnt h6{
+        font-size: large;
+    }
+    .book-sec-cnt h6 i{
+        font-size: small;
+    }
+    .footer-profile{
+        padding-left: 0px;
+    }
+    .book-card-sec1,.book-card-sec3{
+        border-radius: 20px;
+    }
+}
+@media (max-width:430px){
+    main{
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        height: 90vh;
+    }
+    .book-card-sec1,.book-card-sec2,.book-card-sec3{
+        width: 90%; height: 100%;
+        margin: 20px;
+    }
+    .book-card-cnt2 h5{
+        color: #fff;
+        font-size: x-large;
+    }
+    footer{
+        height: 100vh; 
+        flex-direction: column;
+    }
+    .footer-sec1{
+        width: 100%;
+        height: 50%;
+    }
+    .footer-sec2{
+        width: 100%;
+        height: 100%;
+    }
+    .book-grid-sec{
+        display: grid; grid-gap: 20px 0px;
+        grid-template-columns: auto auto;
+    }
+    .book-sec-img1,.book-sec-img2,.book-sec-img3,.book-sec-img4,.book-sec-img5,.book-sec-img6{
+        height: 90%;
+    }
+    .book-sec5,.book-sec6{
+        display: none;
+    }
+    .book-sec-cnt{
+        height: 90%;
+    }
+    .book-sec-cnt h6{
+        font-size: smaller;
+    }
+    .book-sec-cnt h6 i{
+        font-size: x-small;
+    }
+    .footer-profile{
+        padding-left: 0px;
+    }
+    .book-card-sec1,.book-card-sec3{
+        border-radius: 20px;
+    }
+}
